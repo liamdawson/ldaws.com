@@ -1,0 +1,3 @@
+[submodule "themes/hugo-lux"]
+	path = themes/hugo-lux
+	url = https://github.com/liamdawson/hugo-lux.git

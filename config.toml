@@ -1,0 +1,43 @@
+baseURL = "https://www.ldaws.com/"
+languageCode = "en-au"
+title = "Liam Dawson"
+theme = "hugo-lux"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+sectionPagesMenu = "main"
+enableGitInfo = true
+googleAnalytics = "UA-65876159-3"
+enableRobotsTXT = true
+disableAliases = true
+
+[Author]
+email = "liam@ldaws.com"
+twitter = "liamdaws"
+linkedin = "liamdawson1"
+github = "liamdawson"
+gitlab = "liamdawson"
+stackoverflow = "201487"
+dribbble = "liamdawson"
+
+[Params]
+logo = "img/logo.svg"
+images = ["img/logo.svg"]
+
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
