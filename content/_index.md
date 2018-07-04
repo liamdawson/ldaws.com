@@ -18,4 +18,5 @@ and once wrote a
 [watchface for Android Wear devices](https://github.com/liamdawson/lawful-neutral).
 
 My opinions are personal, and don't reflect the opinions or stances of my
-employers past or present.
+employers past or present. Source for this site can be found
+[here!](https://github.com/liamdawson/ldaws.com)
