@@ -22,6 +22,8 @@ dribbble = "liamdawson"
 [Params]
 logo = "img/logo.svg"
 images = ["img/logo.svg"]
+# think I'll keep Lux private, for now at least.
+hideCredits = true
 
 [outputs]
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
