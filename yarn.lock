@@ -6037,6 +6037,11 @@ minipass@^2.2.1, minipass@^2.3.3:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
 
+minireset.css@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/minireset.css/-/minireset.css-0.0.3.tgz#0b112dbbd7809ea0fc965388b79fd29390778fe5"
+  integrity sha1-CxEtu9eAnqD8llOIt5/Sk5B3j+U=
+
 minizlib@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.1.1.tgz#6734acc045a46e61d596a43bb9d9cd326e19cc42"
@@ -7741,7 +7746,7 @@ react-dev-utils@^6.1.1:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.6.1:
+react-dom@^16.6.1:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.1.tgz#5476e08694ae504ae385a28b62ecc4fe3a29add9"
   integrity sha512-zm+wBuEMGm009Wt1uE4Zw5KcXOW7qC4E/xW/fpJsCsbOco4U/R84u+DzzO/S4SYSdNBcqcaulcp4w3FXl8pImw==
@@ -7811,7 +7816,7 @@ react-scripts@2.1.1:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.6.1:
+react@^16.6.1:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.6.1.tgz#ee2aef4f0a09e494594882029821049772f915fe"
   integrity sha512-OtawJThYlvRgm9BXK+xTL7BIlDx8vv21j+fbQDjRRUyok6y7NyjlweGorielTahLZHYIdKUoK2Dp9ByVWuMqxw==
