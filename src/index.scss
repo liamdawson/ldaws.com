@@ -44,10 +44,14 @@ h1, h2, h3 {
   padding-bottom: 0.5rem;
 }
 
-.pageFooter, .textSection {
+.pageFooter, .textSection, .textHeader {
   max-width: 58rem;
   padding: 2rem 1rem 0;
   margin: 0 auto;
+}
+
+.textHeader {
+  text-align: center;
 }
 
 ul {
