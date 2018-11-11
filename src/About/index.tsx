@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import portrait from "./portrait.png";
-import "./About.scss";
 
 class App extends Component {
   render(): React.ReactNode {
