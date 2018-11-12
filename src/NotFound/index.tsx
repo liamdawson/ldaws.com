@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 export default () => (
   <>
-    <header className="textHeader">
-      <h1>Not Found</h1>
-      <p>
+    <header className="mw8 center pa4">
+      <h1 className="lh-title">Not Found</h1>
+      <p className="lh-title">
         <em>Unexpected, this was.</em>
       </p>
     </header>
-    <section className="textSection">
+    <section className="mw8 center pa4">
       <p>
         The path leads to a dead-end. The page you were seeking is nowhere to be
         found.
