@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "minireset.css";
+// import "minireset.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "tachyons/css/tachyons.min.css";

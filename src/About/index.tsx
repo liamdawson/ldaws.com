@@ -6,20 +6,27 @@ class App extends Component {
   render(): React.ReactNode {
     return (
       <>
-        <header className="authorHeader" role="banner">
-          <img className="authorHeader-portrait" alt="" src={portrait} />
-          <h1>Liam Dawson</h1>
-          <p>A Melbourne-based cross-functional developer.</p>
-          <p>
-            <em>
-              The presence of Liam is often heralded by bad jokes (generally
-              puns), and the usage of the phrase "What could possibly go wrong?"
-            </em>
-          </p>
+        <header className="mw8 center" role="banner">
+          <div className="fl-ns w-third-ns ph2">
+            <img className="br-100" alt="" src={portrait} />
+          </div>
+          <div className="fl-ns w-two-thirds-ns ph2 pt3-ns pt4-s">
+            <h1 className="lh-title">Liam Dawson</h1>
+            <p className="lh-title">
+              A Melbourne-based cross-functional developer.
+            </p>
+            <p>
+              <em>
+                The presence of Liam is often heralded by bad jokes (generally
+                puns), and the usage of the phrase "What could possibly go
+                wrong?"
+              </em>
+            </p>
+          </div>
         </header>
-        <section className="textSection">
+        <section className="cb mw8 pa4 center">
           <header>
-            <h2>"Temporary" directory</h2>
+            <h2>Notable Destinations</h2>
           </header>
           <ul>
             <li>
@@ -33,9 +40,7 @@ class App extends Component {
               </a>
             </li>
             <li>
-              <Link to="/adventures/printing">
-                3D printing (mis)adventures
-              </Link>
+              <Link to="/adventures/printing">3D printing (mis)adventures</Link>
             </li>
             <li>
               <a href="https://www.instagram.com/phoebe.consuela/">My cat</a>
@@ -70,7 +75,8 @@ class App extends Component {
                 </li>
                 <li>
                   <a href="https://keybase.io/liamdawson">
-                    Keybase: liamdawson <small>(including public PGP key)</small>
+                    Keybase: liamdawson{" "}
+                    <small>(including public PGP key)</small>
                   </a>
                 </li>
               </ul>

@@ -7,7 +7,7 @@ import NotFoundPage from "./NotFound";
 class App extends Component {
   render(): React.ReactNode {
     return (
-      <div className="sans-serif f4 lh-copy">
+      <div className="sans-serif f4 lh-copy w-100">
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={AboutPage} />
