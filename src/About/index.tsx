@@ -6,7 +6,7 @@ class App extends Component {
   render(): React.ReactNode {
     return (
       <>
-        <header className="mw8 center" role="banner">
+        <header className="mw8 center ph2" role="banner">
           <div className="fl-ns w-third-ns ph2">
             <img className="br-100" alt="" src={portrait} />
           </div>
