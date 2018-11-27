@@ -1,0 +1,21 @@
+title = "Nan's Baked Rice"
+from = "Mum"
+description = "Just like Nan used to make. Family favourite!"
+ingredients = [
+  {name = "Sugar", measure = "1 cup"},
+  {name = "Medium-grain rice", measure = "2 cups"},
+  {name = "Full-cream milk", measure = "2 cups"},
+  {name = "Cream", measure = "2 cups", optional = true},
+  {name = "Vanilla", measure = "Dash"},
+  {name = "Nutmeg", measure = "Sprinkling"},
+  {name = "Coconut", measure = "Covering"},
+  {name = "Salt", measure = "Pinch"},
+]
+procedure = [
+  "Boil rice in salted water. Cover and boil until water is absorbed.",
+  "Add milk (and cream), carefully boil until some milk is absorbed.",
+  "Add vanilla.",
+  "Pour into greased dish. Sprinkle nutmeg, coconut and some salt on top.",
+  "Cook in oven, setting the dish into another dish of water (or put dish of water on shelf underneath).",
+  "Cook until brown on top, creamy in the corners."
+]

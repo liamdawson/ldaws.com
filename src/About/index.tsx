@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import portrait from "./me.jpg";
 
-class App extends Component {
+class AboutPage extends Component {
   render(): React.ReactNode {
     return (
       <>
@@ -38,6 +38,9 @@ class App extends Component {
               <a href="https://boardgamegeek.com/collection/user/jesterfraud?own=1&amp;subtype=boardgame&amp;ff=1">
                 Board game collection
               </a>
+            </li>
+            <li>
+              <Link to="/adventures/cooking">Recipes</Link>
             </li>
             <li>
               <Link to="/adventures/printing">3D printing (mis)adventures</Link>
@@ -88,4 +91,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AboutPage;

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iarna/toml": "https://github.com/agriffis/iarna-toml#c65a56bb2227b51ca54884842472031e2a4ad721",
     "minireset.css": "^0.0.3",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
@@ -17,7 +18,9 @@
     "@types/react-dom": "16.0.9",
     "@types/react-router": "^4.4.1",
     "@types/react-router-dom": "^4.3.1",
+    "@types/webpack-env": "^1.13.6",
     "node-sass": "^4.10.0",
+    "raw-loader": "^0.5.1",
     "react-scripts": "2.1.1",
     "typescript": "3.1.6"
   },
