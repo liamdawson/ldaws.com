@@ -16,7 +16,7 @@ class App extends Component {
             <Route component={NotFoundPage} />
           </Switch>
         </BrowserRouter>
-        <footer className="pt4 pb4 tc f5" role="banner">
+        <footer className="pa4 tc f5" role="banner">
           <p>
             This page brought to you by many electrons, photons and other tiny
             particles.

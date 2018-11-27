@@ -8,7 +8,7 @@ class App extends Component {
       <>
         <header className="mw8 center ph2" role="banner">
           <div className="fl-ns w-third-ns ph2">
-            <img className="br-100" alt="" src={portrait} />
+            <img className="br-100 pt2 pt0-ns" alt="" src={portrait} />
           </div>
           <div className="fl-ns w-two-thirds-ns ph2 pt3-ns pt4-s">
             <h1 className="lh-title">Liam Dawson</h1>
