@@ -1,4 +1,6 @@
 title = "Nan's Baked Rice"
+added = "2018-11-28"
+slug = "baked-rice"
 from = "Mum"
 description = "Just like Nan used to make. Family favourite!"
 ingredients = [
@@ -17,5 +19,5 @@ procedure = [
   "Add vanilla.",
   "Pour into greased dish. Sprinkle nutmeg, coconut and some salt on top.",
   "Cook in oven, setting the dish into another dish of water (or put dish of water on shelf underneath).",
-  "Cook until brown on top, creamy in the corners."
+  "Cook 170°C (fan forced) until brown on top, creamy in the corners."
 ]
